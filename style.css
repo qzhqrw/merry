@@ -1,0 +1,60 @@
+.div {
+    background-color:hsl(240, 57%, 39%)
+    /* This is correct */
+    width: 400px;
+    height: 450px;
+    border-radius: 0 30px 0 0;
+}
+
+body {
+    background-color: rgba(251, 249, 248, 0.1);
+    /* Fix: Use rgba with correct parameters */
+}
+
+img {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.ee {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+.e {
+    color: orange;
+}
+
+q {
+    font-style: italic;
+}
+
+button {
+    color: white;
+    background-color: #4e4e72;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+h1 {
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.qzh {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 130px;
+}
